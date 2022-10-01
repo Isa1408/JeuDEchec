@@ -100,6 +100,8 @@ public class Principal {
         if(obj instanceof Tour l){
             l.estDeplacementValide(new Position(2, 'a'));
         }
+
+        System.out.println("allo test");
     }
 
 }
